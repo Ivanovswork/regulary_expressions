@@ -24,7 +24,7 @@ def forming_of_list(contacts_list):
 
 
 def end_of_forming(contacts):
-    right_contacts = []
+    right_contacts = [["lastname", "firstname", "surname", "organization", "position", "phone", "email"]]
     for e in contacts:
         pat = [' нет информации' for i in range(7)]
         number_of_name = 0
